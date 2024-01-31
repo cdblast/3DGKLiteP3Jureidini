@@ -715,13 +715,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 1
   interactiveObject: {fileID: 948219141}
-  oneShot: 0
-  coolDown: 1
+  oneShot: 1
+  coolDown: 0
   onSendAudio: {fileID: 0}
   audioDelay: 0
   layers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
 --- !u!1001 &252454270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44681,8 +44681,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114634906093864604, guid: 975d12c1f4445fe47afe0bf925747270,
         type: 3}
+      propertyPath: newSceneName
+      value: ExampleScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: 975d12c1f4445fe47afe0bf925747270,
+        type: 3}
       propertyPath: transitionType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: 975d12c1f4445fe47afe0bf925747270,
+        type: 3}
+      propertyPath: transitionWhen
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114634906093864604, guid: 975d12c1f4445fe47afe0bf925747270,
         type: 3}
@@ -44694,6 +44704,11 @@ PrefabInstance:
       propertyPath: transitioningGameObject
       value: 
       objectReference: {fileID: 2034418527}
+    - target: {fileID: 114634906093864604, guid: 975d12c1f4445fe47afe0bf925747270,
+        type: 3}
+      propertyPath: transitionDestinationTag
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 975d12c1f4445fe47afe0bf925747270, type: 3}
 --- !u!43 &1924986576
